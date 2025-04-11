@@ -1,12 +1,12 @@
 # Report: Predict Bike Sharing Demand with AutoGluon Solution
-#### NAME HERE
+#### Mika Mauser
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-For me it actually worked right away to submit my predictions. If there were negative values I would have to convert them to 0 first.
+For me it actually worked right away to submit my predictions. If there were negative values I would have to convert them to zeros first because Kaggle doesn't take submissions with negative values.
 
 ### What was the top ranked model that performed?
-The Weighted Ensemble model worked the best for me in each of the 3 models.
+The Weighted Ensemble model worked the best for me in each of the 3 models. And the best overall score got the hyperparameter optimized model with a score of 0.674.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
