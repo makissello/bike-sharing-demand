@@ -18,10 +18,10 @@ It cause a huge improvement, jumping from a score of 1.763 to 0.703. The cause o
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-At first it even got worse and jumped back to a score of ~0.8. After iterating a couple of times I finally got it to perform better than without doing hyperparameter optimization and my best attempt was 0.674.
+At first it even got worse and jumped back to a score of ~0.8. After iterating a couple of times I finally got it to perform better than without doing hyperparameter optimization and my best attempt was 0.674. Then I've tried to adjust the hyperparameters for specific models (changed learning_rate and n_estimations for the best performing models) and the score spiked up to 1.45.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
-I would try to tune different hyperparameters and even dig into the hyperparameters of the specific models and tune them aswell. For example, I would try to change the learning rates of the different models or the depth of the layers of the Neural Net model.
+I would try to spend more time figuring out which model mostly performs the best and try to train Autogluon with just the best performing models and tune the hyperparameters further. Also, I would try to engineer new features such as categorizing the humidity in different levels etc.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|time_limit|presets|added hyperparams|score|
